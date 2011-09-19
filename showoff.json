@@ -1,12 +1,7 @@
-{ "name": "RubyKaigi", "sections": [
+{ "name": "CoffeeScript A Go Go", "sections": [
   {"section":"01_intro"},
-  {"section":"02_soa"},
-  {"section":"03_sample_app"},
-  {"section":"05_no_mock"},
-  {"section":"04_testing"},
-  {"section":"06_fakeweb"},
-  {"section":"07_built_in_mock"},
-  {"section":"08_toggle"},
-  {"section":"09_your_apps"},
-  {"section":"10_conclusion"}
+  {"section":"02_basic_syntax"},
+  {"section":"03_standalone"},
+  {"section":"04_rails_demo"},
+  {"section":"05_conclusion"}
 ]}

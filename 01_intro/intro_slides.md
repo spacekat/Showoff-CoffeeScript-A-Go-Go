@@ -1,27 +1,46 @@
-!SLIDE
-# Toggleable Mocks
-# 切り替え可能なモック
-## Testing in a Service Oriented Architecture
-## サービス指向アーキテクチャにおけるテスト
+!SLIDE checkers
+![](vespa_ride.png)
+# CoffeeScript A Go Go
+## A sweet introduction to using <span class="callout">CoffeeScript</span>, with a side of coffee, and an extra dollop of '80s music trivia foam.
 
 !SLIDE
-# Andy Delcambre
-# アンディー・デルカム
-## (rhymes with <span class="callout">"Welcome"</span>)
-## 「ウェルカム」と同じ脚韻
-
-!SLIDE
-# @adelcambre
+# Haiiiii!
+## I'm Jessica Allen
 
 !SLIDE
 ![](ey.png)
 
-!SLIDE fullscreen
-![](sf.jpg)
-<span class="caption flickr">furnari</span>
+!SLIDE
+<div class="red">
+<img src="railsgirls-logo.png">
+</div>
+
+
+!SLIDE fullscreen middle
+![](bluemonday_theiveslikeus.jpg)
+# What is CoffeeScript? 
+<span class="caption"><b>Blue Monday</b> / Thieves Like Us / by Chynna Clugston</span>
+
+!SLIDE 
+# CoffeeScript #
+![](coffeescript_demo.gif)
+## vs.
+# JavaScript
+![](javascript_demo.gif)
+
 
 !SLIDE
-# If you understand english raise your hand
+# Part I #
+## Parlez-vous CoffeeScript?
+# Part II
+## Using it on a webpage (+ jQuery)
+# Part III
+## Using it in Rails 3.1 ##
+
 
 !SLIDE
-# 日本語わかる人挙手してください
+# Don't have it installed? 
+## That's okay!
+## Click the “<span class="callout">Try CoffeeScript</span>” tab on
+## <span class="callout">coffeescript.com</span>
+
