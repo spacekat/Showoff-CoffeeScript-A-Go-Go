@@ -1,0 +1,249 @@
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface|Abel);
+
+.slide {
+  background: #000;
+  color: #fff;
+  font-family: 'Abel', sans-serif;
+  line-height:normal;
+}
+
+.content {
+  margin:30px
+}
+
+.code-sample {
+  margin:0;
+}
+
+div.larger {
+ font-size: 200%;
+}
+
+div.right h2 {
+  text-align: right;
+  margin-right: 3em;
+}
+
+h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  margin:0 0 20px;
+  padding:0;
+  color: #F56C7F;
+  line-height:1em;
+}
+
+h2,h3 {
+  font-family: 'Abel', sans-serif;
+  font-weight: normal;
+  color: #A1D7B6;
+  font-size:60px;
+}
+
+h3 {
+  font-family: 'Abel', sans-serif;
+  font-weight: normal;
+  color: #FFF;
+  font-size:45px;
+}
+
+#footer {
+  display: none;
+}
+
+
+pre.sh_sourceCode {
+  margin: 0;
+  padding: 20px;
+  font-size:25px;
+}
+
+.command {
+  color: white;
+  font-size: smaller;
+}
+
+.minibutton {
+  background: #fff;
+  padding:20px;
+  position:absolute;
+  top:5px;
+  right:5px;
+  color:#000;
+  
+}
+
+.repl_results {
+  width: 300px;
+  height: 104px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  background: blue;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+}
+
+span.callout {
+  color: #6cbb7d !important;
+  font-weight: bold;
+}
+
+.fullscreen {
+  margin: 0;
+}
+
+.fullscreen img {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 1024px;
+  height: 768px;
+}
+.code-sample h2 {
+  position: absolute;
+  top:0;
+  left: 20px;
+}
+.fullscreen h1, .fullscreen h2 {
+  position: absolute;
+  left: 100px;
+  font-size: 5em;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  
+  text-shadow: -3px 2px 0px #000; 
+
+}
+.fullscreen.bottom  h1 {
+  bottom: 0px;
+}
+.fullscreen.top  h1 {
+  top: 30px;
+}
+.fullscreen.middle  h1 {
+  top: 300px;
+}
+
+.fullscreen.bottom  h2 {
+  bottom: 150px;
+}
+.fullscreen.bottom.larger  h2 {
+  bottom: 200px;
+}
+.fullscreen.top  h2 {
+  top: 150px;
+}
+
+.flickr:before {
+  background: url("flickr_dots.png") 0 0 no-repeat;
+  content: "";
+  width: 38px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+}
+
+span.caption {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  font-size: 26px;
+  background: rgba(0,0,0,0.5);
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  color: #80C18E;
+}
+
+
+.CodeMirror {
+  background-color: #000;
+  overflow: auto;
+  height: 600px;
+  width:100%;
+  line-height: 1em;
+  font-family: monospace;
+  _position: absolute; /* IE6 hack */
+  position:absolute;
+  padding:10px 20px;
+  top:100px;
+
+}
+
+.CodeMirror-gutter {
+  position: absolute; left: 0; top: 0;
+  background-color: #EEE;
+  border-right: 1px solid #AAA;
+  height: 100%;
+  width: 25px;
+}
+.CodeMirror-gutter-text {
+  color: #666;
+  text-align: right;
+  padding: .4em .2em .4em .4em;
+}
+.CodeMirror-lines {
+  padding: .4em;
+}
+
+.CodeMirror pre {
+  line-height: 1.5em;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border-width: 0; margin: 0; padding: 0; background: transparent;
+  font-family: inherit;
+}
+
+.CodeMirror-cursor {
+  z-index: 10;
+  position: absolute;
+  visibility: hidden;
+  border-left: 1px solid white !important;
+}
+.CodeMirror-focused .CodeMirror-cursor {
+  visibility: visible;
+}
+
+span.CodeMirror-selected {
+  background: #ccc !important;
+  color: HighlightText !important;
+}
+.CodeMirror-focused span.CodeMirror-selected {
+  background: Highlight !important;
+}
+
+.CodeMirror-matchingbracket {color: #0f0 !important;}
+.CodeMirror-nonmatchingbracket {color: #f22 !important;}
+/**
+ * Link to the project's GitHub page:
+ * https://github.com/pickhardt/coffeescript-codemirror-mode
+ */
+span.coffee-delimiter,
+span.coffee-special {color: #E6B0D1;}
+
+span.coffee-error {background-color: #660000; color: #FFFFFF;}
+
+span.coffee-keyword,
+span.coffee-operator {color: #6ad0d3; font-weight: bold;}
+
+span.coffee-number,
+span.coffee-literal {color: #cbf4a9;}
+
+span.coffee-constant {color: #cbf4a9;}
+
+span.coffee-identifier,
+span.coffee-func {color: #fff;}
+
+span.coffee-thisprop {color: #3090AA;}
+
+span.coffee-comment {color: #838a91;}
+
+span.coffee-string,
+span.coffee-bytes,
+span.coffee-raw,
+span.coffee-unicode {color: #cbf4a9;}
