@@ -7,15 +7,9 @@
 !SLIDE
 ## File tree
 ![](file_tree.gif)
-### Download it if you want:
+### Take a peek if you would like:
 ### <span class="callout">https://github.com/spacekat</span> ###
 ### CoffeeScript-jQuery-demo--favorite-bands ###
-
-    
-!SLIDE code-sample
-## .star classes ##
-![](star_sprite.jpg)
-<span class="caption">style.css</span>
 
 !SLIDE code-sample
 ## HTML for listing a single band ##
@@ -41,6 +35,12 @@
 
 <span class="caption">index.html</span>
 
+  
+!SLIDE code-sample
+## .star classes ##
+![](star_sprite.jpg)
+<span class="caption">style.css</span>
+
 !SLIDE
 # jQuery Snack Break #
 ![](Adventure_Time.gif)
@@ -48,7 +48,7 @@
 <span class="caption">Adventure Time</span>
 
 !SLIDE code-sample execute incremental coffeescript
-## Add 'click' event ##
+## Add .click() and .toggleClass() ##
     @@@ javascript
     $(document).ready ->
 

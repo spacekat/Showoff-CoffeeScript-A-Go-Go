@@ -8,7 +8,7 @@
 !SLIDE bullets incremental transition=fade
 ![](bff.gif)
 ## Rails 3.1 + CoffeeScript = BFF
-* <span class="callout">.coffee</span> files in /app/asssets/javascripts
+* <span class="callout">.coffee</span> files in /app/assets/javascripts
 * jQuery is included by default
 
 !SLIDE bullets incremental
@@ -21,12 +21,11 @@
 
 !SLIDE bullets incremental
 
-* <span class="callout">Model:</span> Added the class "Bands" 
-with <br />"def toggle_favorite"
+* <span class="callout">Bands Model:</span> Added the function <br />"def toggle_favorite"
 <!-- (to app/models/band.rb) -->
-* <span class="callout">View:</span> Dynamically load the view with the bands from the database. 
+* <span class="callout">Bands View:</span> Dynamically loaded with bands from the database. 
 <!-- (in app/views/bands/index.html.erb) -->
-* <span class="callout">Controller:</span> Added BandsController action called "favorite" that handles the favoriting of bands.
+* <span class="callout">Bands Controller:</span> Added action called "favorite"
 <!-- (app/controllers/bands_controller.rb) -->
 
 
@@ -72,15 +71,17 @@ with <br />"def toggle_favorite"
 ## Now the favorites are saved to the database ##
 ![](saved.png)
 
-!SLIDE
+!SLIDE bullets incremental
 # Even better
-## Use Rails' <span class="callout">Remote Elements</span>
-
+## Use Rails' <span class="callout">Remote Links</span>
+* Powered by the UJS driver, rails.js
+* Allow us to override click events with AJAX submissions
+* Easy to setup with HTML5 'data-' tags
 
 !SLIDE bullets incremental
-# Setup the view to use Remote Elements #
+# Setup the view to use Remote Links #
 
-* Update the star link so that it uses HTML5 data tags
+* Update the star HREF with data- tags
 * data-remote="true"
 * data-method="put"
 
@@ -96,7 +97,8 @@ with <br />"def toggle_favorite"
     <%= link_to "", favorite_band_path(band),
       :remote => true,
       :method => :put,
-      :class => "favorite-rails star #{band.favorite ? "fave" : "whatevs"}" %>
+      :class => "favorite-rails star 
+      #{band.favorite ? "fave" : "whatevs"}" %>
 
 <span class="caption">/app/views/bands/index.erb</span>
 
