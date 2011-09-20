@@ -43,13 +43,10 @@
 # Many thanks! #
 ## My rad coworkers ##
 
-
-
 !SLIDE
 # Ciao! #
 
 ## @jessicaspacekat ##
-
 ### instagram <span class="callout">jessicaspacekat</span>
 ### https://github.com/spacekat
 
